@@ -14,7 +14,6 @@ const CounterComponenet = () =>{
 
     }
 
-
     return(
     <div>
     <p>Count component - {count}</p>
@@ -23,7 +22,6 @@ const CounterComponenet = () =>{
     <button onClick = { ()=> checkNumber(count)}>Check Value</button>
     <button onClick = { ()=> setCount(count+1)}>Increment</button>
     <button onClick = { ()=> setCount(count-1)}>decrement</button>
-
     </div>
     )
 }
